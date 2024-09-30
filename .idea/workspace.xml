@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d48e5691-e289-4f88-a495-d3d266e65987" name="Changes" comment="Initial commit" />
+    <list default="true" id="d48e5691-e289-4f88-a495-d3d266e65987" name="Changes" comment="delete main.py" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -131,7 +131,7 @@
       <option name="presentableId" value="Default" />
       <updated>1727693866601</updated>
       <workItem from="1727693870831" duration="2108000" />
-      <workItem from="1727698555403" duration="8549000" />
+      <workItem from="1727698555403" duration="9297000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -181,7 +181,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727721109964</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="delete main.py">
+      <option name="closed" value="true" />
+      <created>1727721907139</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1727721907139</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,7 +210,8 @@
     <MESSAGE value="a" />
     <MESSAGE value="Change .gitignore" />
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="delete main.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete main.py" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LaTvRoue$main.coverage" NAME="main Coverage Results" MODIFIED="1727720552644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
