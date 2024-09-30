@@ -64,7 +64,6 @@ class ChampionPool:
                     role = roles[0] if roles else "Unknown"  # Utiliser le premier rôle s'il y en a plusieurs
                     champion = Champion(nom, role)
                     self.ajouter_champion(champion)
-                print(f"Nombre de champions chargés : {len(self.champions)}")
             else:
                 print("Erreur lors de la récupération des champions.")
         except Exception as e:

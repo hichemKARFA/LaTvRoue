@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d48e5691-e289-4f88-a495-d3d266e65987" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/src/api_champions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/champion.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/equipe.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/historique.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joueur.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joueurs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/match.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/charger_joueurs_depuis_json.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/champion.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/champion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equipe.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/equipe.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +137,7 @@
       <option name="presentableId" value="Default" />
       <updated>1727693866601</updated>
       <workItem from="1727693870831" duration="2108000" />
-      <workItem from="1727698555403" duration="6868000" />
+      <workItem from="1727698555403" duration="7971000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -175,7 +171,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727698678131</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1727719634195</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1727719634195</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,7 +203,7 @@
     <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/LaTvRoue$main.coverage" NAME="main Coverage Results" MODIFIED="1727718801230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/LaTvRoue$main.coverage" NAME="main Coverage Results" MODIFIED="1727720385536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/LaTvRoue$match.coverage" NAME="match Coverage Results" MODIFIED="1727702890710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/LaTvRoue$api_champions.coverage" NAME="api_champions Coverage Results" MODIFIED="1727699558927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
   </component>

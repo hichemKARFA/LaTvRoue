@@ -1,39 +1,37 @@
+import random  # Assurez-vous que ce module est importé correctement
 from champion import ChampionPool
-from joueur import Joueur
 from equipe import Equipe
 from match import MatchFactory
+from charger_joueurs_depuis_json import charger_joueurs_depuis_json_aleatoire
 
 def main():
-    # Définir les rôles possibles
-    roles_disponibles = ['Top', 'Jungle', 'Mid', 'ADC', 'Support']
+    # Charger 10 joueurs aléatoires depuis le fichier JSON
+    liste_joueurs = charger_joueurs_depuis_json_aleatoire('joueurs.json', 10)
 
-    # Créer la pool de champions et charger les champions depuis l'API
-    champion_pool = ChampionPool()
+    # Mélanger les joueurs aléatoirement
+    random.shuffle(liste_joueurs)
 
-    # Créer les équipes
+    # Diviser les joueurs en deux équipes aléatoires
     equipe1 = Equipe()
     equipe2 = Equipe()
 
-    # Ajouter des joueurs aux équipes
-    equipe1.ajouter_joueur(Joueur("Joueur1"))
-    equipe1.ajouter_joueur(Joueur("Joueur2"))
-    equipe1.ajouter_joueur(Joueur("Joueur3"))
-    equipe1.ajouter_joueur(Joueur("Joueur4"))
-    equipe1.ajouter_joueur(Joueur("Joueur5"))
+    # Ajouter les 5 premiers joueurs à l'équipe 1 et les 5 suivants à l'équipe 2
+    for i in range(5):
+        equipe1.ajouter_joueur(liste_joueurs[i])
+    for i in range(5, 10):
+        equipe2.ajouter_joueur(liste_joueurs[i])
 
-    equipe2.ajouter_joueur(Joueur("Joueur6"))
-    equipe2.ajouter_joueur(Joueur("Joueur7"))
-    equipe2.ajouter_joueur(Joueur("Joueur8"))
-    equipe2.ajouter_joueur(Joueur("Joueur9"))
-    equipe2.ajouter_joueur(Joueur("Joueur10"))
+    # Définir les rôles possibles
+    roles_disponibles = ['Top', 'Jungle', 'Mid', 'ADC', 'Support']
+
+    # Créer la pool de champions
+    champion_pool = ChampionPool()
 
     # Créer le match via la Factory
     match = MatchFactory.creer_match(equipe1, equipe2, champion_pool, roles_disponibles)
 
     # Afficher les équipes et les champions assignés
     match.afficher_match()
-
-    champion_pool.afficher_champions_disponibles()
 
 if __name__ == "__main__":
     main()
